@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body a:link { 
+	text-decoration: none; } 
+body a:visited { 
+	text-decoration: none; } 
+body a:hover {
+	text-decoration: none; 
+	} 
+
+li {
+    list-style: none;
+}
+/*去除input蓝色边框*/
+input{
+outline: none;
+}
+.carousel-inner{
+	margin: 0 auto;
+}
+.slide {
+	width: 100%;
+}
+.slide img{
+	width: 100%;
+	
+	display: block;
+} 
+.itemMp4{
+	width: 100%;
+	height: 677px;
+	position: relative;
+}
+#item_mp4{
+	width: 100px;
+	height: 100px;
+	background: white;
+	border-radius:50% ;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+}
+#item_mp4_1{
+  	width:0;
+    height:0;
+    border-top:40px solid transparent;
+    border-bottom:40px solid  transparent;
+    border-left:60px solid #4c4b4b;
+    position: absolute;
+	left: 15px;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	/*margin-left: 20px;*/
+
+}
+.carousel-caption span {
+    font-size: 40px;
+    font-family: apa,"Microsoft YaHei";
+    line-height: 40px;
+    }
+.box_2{
+		overflow: hidden;
+    	width: 1100px;
+    	margin: 30px auto 0;
+    }
+  .box_2_1  .box_2_1_left{
+    	float: left;
+    	margin-right:10px;
+    	width: 600px;
+    }
+  .box_2_1  .box_2_1_left1{
+    	float: left;
+    	margin-top: 0;
+    	margin-bottom: 10px;
+    }
+.box_2_1_left1 img{
+	width: 600px;
+    	float: left;
+	height: 498px;
+}
+.box_2_1_left2 img{
+	width: 600px;
+    	float: left;
+	height: 498px;
+}
+.box_2_1_right{
+	float: left;
+	width: 480px;
+	height: 1020px;
+	overflow: hidden;
+}
+.box_2_1_right .box_2_1_right1 {
+	height: 1020px;
+	margin: 0;
+}
+.box_2_1_right1 img{
+	height: 1016px;
+	float: left;
+	width: 480px;
+	
+}
+.box_3{
+	width: 100%;
+	margin-top:50px ;
+}
+.most h2{
+	font-size:32px ;
+	margin: 0 auto;
+	width: 1100px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+}
+.most h4{
+	margin: 0 auto;
+	width: 1100px;
+	text-align: center;
+	line-height: 24px;
+	height: 24px;
+}
+.slide_1{
+	width: 1100px;
+	height: 293px;
+	margin: 0 auto;
+	
+}
+.item_img3{
+	width: 300px;
+	height: 293px;
+
+	float: left;
+	margin: 0 32px;
+}
+.item_div{
+	width: 300px;
+	height: 100px;
+	/*background: red;*/
+	
+}
+.item_div p{
+	width: 300px;
+	height: 12px;
+	/*background: yellow;*/
+	font-size:18px ;
+	text-align: center;
+}
+#myCarousel .carousel-indicators li {
+	background-color:gray;
+	    border: 1px solid black;
+
+}
+.carousel-control .img1{
+	width: 28px;
+	height: 30px;
+	margin: auto 0;
+	position: absolute;
+	left: 2%;
+	top: 48%;
+}
+.carousel-control .img2{
+	width: 28px;
+	height: 30px;
+	margin: auto 0;
+	float: right;
+	position: absolute;
+	right: 2%;
+	top: 48%;
+}
+.box_4 {
+	width: 1100px;
+	overflow: hidden;
+	margin: 150px auto 150px;
+}
+
+.box_4 img{
+	width: 1100px;
+	height: 370px;
+}
+.box_5{
+	overflow: hidden;
+	width: 1100px;
+	margin: 0 auto 150px;
+}
+.box_5 a:nth-of-type(1) img{
+	width: 650px;
+	height: 490px;
+	/*margin-right:10px ;*/
+	float: left;
+}
+.box_5 a:nth-of-type(2) img{
+	width: 430px;
+	height: 490px;
+	float: right;
+}
+.box_5 a:nth-of-type(3) img{
+	width: 450px;
+	height: 509px;
+
+	float: left;
+	/*margin-top: 10px;*/
+}
+.box_5 a:nth-of-type(4) img{
+	width: 630px;
+	height: 510px;
+
+	float: right;
+}
+.box_5_img{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	margin-right:10px ;
+	margin-top: 10px;
+}
+.box_5img{
+	display: block;
+	overflow: hidden;
+	float: left;
+	
+}

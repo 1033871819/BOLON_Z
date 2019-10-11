@@ -1,0 +1,22 @@
+{
+  "name": "1033871819",
+  "version": "1.0.0",
+  "description": "",
+  "main": "4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1033871819/BOLON_Z.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1033871819/BOLON_Z/issues"
+  },
+  "homepage": "https://github.com/1033871819/BOLON_Z#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

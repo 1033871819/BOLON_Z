@@ -1,0 +1,141 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+ body a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.box_6{
+	width: 100%;
+	background:#ededed ;
+}
+.box_6_1{
+	overflow: hidden;
+	width: 1100px;
+	margin: 0 auto;
+}
+.box_6_left{
+	width: 682px;
+	height: 180px;
+	margin-top:50px;
+	float: left;
+	
+}
+.box_6_left a{
+	text-decoration: none;
+	color: #5a5a5a;
+}
+.box_6_left ul{
+	float: left;
+	width: 142px;
+	margin-bottom:0 ;
+}
+.box_6_left li b{
+	font-size: 15px;
+	font-weight: 540;
+	color: #000000;
+}
+.box_6_left li{
+	width: 142px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+}
+.box_6_left ul:nth-of-type(1){
+	margin-right: 100px;
+}
+.box_6_left ul:nth-of-type(2){
+	margin-right: 100px;
+}
+
+.box_6_left  ul:nth-of-type(3) img{
+	width: 24px;
+	height: 20px;
+	margin-right: 10px;
+	line-height: 45px;
+}
+#weixin_2w{
+	position: relative;
+	height: 20px;
+	width: 34px;
+
+}
+#weixin_1img{
+	margin-right: 6px;
+}
+#weixin_2img{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: -126px;
+	top: -8px;
+	display: none;
+	
+}
+.box_6_right{
+	/*background: red;*/
+	float: left;
+	/*width: 253px;*/
+	/*height: 322px;*/
+	margin: 50px 0;
+	border-left: 1px solid #d5d5d5;
+	padding: 0 0 22px 132px;
+}
+.box_6_right_1{
+	width: 253px;
+	height: 84px;
+}
+.box_2_1_right p{
+	font-size: 15px;
+    color: #333;
+    line-height: 15px;
+    width: 100%;
+    font-family:"Microsoft YaHei";
+}
+.right_input{
+	width: 158px;
+	height: 40px;
+	/*margin: 5px 0 5px 5px;*/
+	margin-left: 10px;
+    font-size: 18px;
+    background: #d9d9d9;
+    border: none;
+    
+}
+.right_inpDiv{
+	width: 253px;
+    background: #d9d9d9;
+	height: 40px;
+}
+.right_inpDiv span{
+	display: block;
+	float: right;
+	width: 40px;
+	height: 40px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+	background: #bababa;
+	margin-top:-1px ;
+}
+input{
+outline: none;
+}
+.box_6_right_2{
+	width: 253px;
+	height: 84px;
+	margin-top: 45px;
+}
+.box_6_1 .p1{
+	font-size: 12px;
+    width: 51%;
+    float: left;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #1e1e1e;
+}
