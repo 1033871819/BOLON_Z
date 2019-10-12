@@ -4,6 +4,7 @@
  			function (over) {
     			$(".nanshi").css({
     				"display":"block"
+    				
     			});
  	 	},
   			function (out) {

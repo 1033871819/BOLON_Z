@@ -23,6 +23,16 @@ gulp.task("watch", async() => {
 	//	
 	//		
 	//	})
+	gulp.watch("img/**/*", async() => {
+		gulp.src("img/**/*")
+			.pipe(gulp.dest("D:\\phpStudy\\WWW\\BOLON111\\img"));
+
+	})
+	gulp.watch("img_1/**/*", async() => {
+		gulp.src("img_1/**/*")
+			.pipe(gulp.dest("D:\\phpStudy\\WWW\\BOLON111\\img_1"));
+
+	})
 	gulp.watch("sass/**/*", async() => {
 		gulp.src("sass/**/*")
 			.pipe(sass())
