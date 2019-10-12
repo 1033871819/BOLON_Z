@@ -10,6 +10,7 @@
   				$(".nanshi").css({
     				"display":"none"
     			});
+    			
   		}
   			
 );
