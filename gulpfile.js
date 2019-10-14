@@ -16,13 +16,13 @@ gulp.task("watch", async() => {
 			.pipe(gulp.dest("D:\\phpStudy\\WWW\\BOLON111"));
 
 	})
-	//	gulp.watch("sass/**/*",async()=>{
-	//	.pipe(sass())
-	//		gulp.src("sass/**/*")
-	//	.pipe(gulp.dest("D:\\phpStudy\\WWW\\BOLON111\\css"));
-	//	
-	//		
-	//	})
+	
+		gulp.watch("css/**/*",async()=>{
+			gulp.src("css/**/*")
+		.pipe(gulp.dest("D:\\phpStudy\\WWW\\BOLON111\\css"));
+		
+			
+		})
 	gulp.watch("img/**/*", async() => {
 		gulp.src("img/**/*")
 			.pipe(gulp.dest("D:\\phpStudy\\WWW\\BOLON111\\img"));

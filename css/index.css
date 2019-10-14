@@ -12,7 +12,7 @@ body a:hover {
 
 li {
     list-style: none;
-}
+	}
 /*去除input蓝色边框*/
 input{
 outline: none;
