@@ -38,14 +38,19 @@ li {
 #hreferTop_left a{
 	float: left;
 	display: block;
-	width: 78px;
-	height: 42px;
-	line-height: 42px;
-	font-size: 13px;
+	width: 33%;
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
 	text-align: center;
 	color: black;
     text-decoration: none;
+    margin-top: 15px;
 	
+}
+#hreferTop_left a:nth-child(2){
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 #hreferTop_right{
 	float: right;
@@ -77,9 +82,10 @@ li {
 	height: 35px;
 	background: #f3f3f3;
 	float: right;
-	display: none;
+	
 	position: absolute;
-	right: 0;
+	right: -250px;
+	top: 0;
 	margin-top: 5px;
 
 }
@@ -185,4 +191,8 @@ li {
 	float: right;
 	/*flex: 1;*/
 	
+}
+.box{
+	width: 100%;
+	border-bottom: 1px solid gainsboro;
 }

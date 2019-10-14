@@ -63,7 +63,6 @@ li {
   .box3 .box3_1 {
     border-bottom: 1px solid #c4c4c4;
     padding: 3% 0;
-    line-height: 80px;
     overflow: hidden; }
     .box3 .box3_1 .img {
       float: left;
@@ -98,6 +97,43 @@ li {
         width: 100%;
         overflow: hidden;
         cursor: pointer; }
+    .box3 .box3_1 .input {
+      float: right;
+      margin: auto 0;
+      width: 4%; }
+      .box3 .box3_1 .input input {
+        width: 18px;
+        height: 18px;
+        margin-top: 22px; }
+    .box3 .box3_1 .jia {
+      float: right;
+      width: 15%; }
+      .box3 .box3_1 .jia h3 {
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0;
+        line-height: 26px; }
+      .box3 .box3_1 .jia p {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0; }
+    .box3 .box3_1 .shuliang h3 {
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0;
+      line-height: 26px; }
+    .box3 .box3_1 .shuliang div button {
+      font-size: 16px;
+      width: 18px;
+      height: 24px;
+      background: white;
+      cursor: pointer;
+      outline: none;
+      border: 0; }
+    .box3 .box3_1 .shuliang div input {
+      width: 52px;
+      height: 22px;
+      text-align: center; }
   .box3 .box3_2 {
     width: 100%;
     overflow: hidden;
@@ -126,7 +162,7 @@ li {
   text-align: center;
   color: #fff;
   font-size: 16px;
-  font-family: h40s,"Microsoft YaHei";
+  font-family: h40s, "Microsoft YaHei";
   line-height: 50px;
   display: block;
   cursor: pointer;

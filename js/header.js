@@ -112,16 +112,24 @@
 //搜索框
 $("#btn_1").click(
 	function () {
-    			$(".rigth_input").css({
-    				"display":"block"
-    			});
- 	 	}
+//  			$(".rigth_input").css({
+//  				"display":"block"
+//  			});$("#block").animate({
+  $(".rigth_input").animate({ 
+	
+  	right:"0px",
+  	top:"0"
+  }, 250 );
+ 	 },
+
 );
 $("#btn_2").click(
 	function () {
-    			$(".rigth_input").css({
-    				"display":"none"
-    			});
+    			$(".rigth_input").animate({ 
+			
+		  	right:"-250px",
+		  	top:"0"
+		  }, 250 );
     			$("#sousuo_inp").value=""
  	 	}
 )
